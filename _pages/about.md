@@ -34,4 +34,4 @@ latest_posts:
 
 Welcome! I am a fifth-year Ph.D. student in the Department of Economics and Education at Teachers College, Columbia University. I was a visiting scholar at Princeton University (2023–2025), and I am currently a research fellow at the Inter-American Development Bank's Research Department.
 
-My research focuses on topics in development, education, health, and gender economics. I use both experiments and tools from applied microeconomics. My current projects are based in Peru and Mozambique.
+My research focuses on topics in development, education, health, and gender economics. I use both experiments and tools from applied microeconomics. My current projects are based in Peru, Colombia, the Dominican Republic and Mozambique.
