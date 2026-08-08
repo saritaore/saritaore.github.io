@@ -10,14 +10,12 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <div class="publications">
-<h2 class="bibliography-heading">Job Market Paper</h2>
-{% bibliography --query @phdthesis --group_by none %}
-</div>
+  <h2 class="bibliography-heading">Job Market Paper</h2>
+  {% bibliography --query @phdthesis --group_by none %}
 
-<div class="publications">
-{% bibliography --query @techreport %}
-</div>
+  <h2 class="bibliography-heading">Working Paper</h2>
+  {% bibliography --query @*[keywords~=Working Paper] --group_by none %}
 
-<div class="publications">
-{% bibliography --query @unpublished %}
+  <h2 class="bibliography-heading">Work in Progress</h2>
+  {% bibliography --query @*[keywords~=Work in Progress] --group_by none %}
 </div>

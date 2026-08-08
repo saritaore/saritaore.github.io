@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Sarita Ore Quispe  # the website title (if blank, full name will be used instead)
+title: Sarita Ore Quispe # the website title (if blank, full name will be used instead)
 first_name: Sarita
-middle_name: 
+middle_name:
 last_name: Ore Quispe
 # contact_note: Contact Note at the bottom of the page
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -202,7 +202,6 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
