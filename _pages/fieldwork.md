@@ -10,6 +10,9 @@ images:
 
 <!-- _pages/fieldwork.md -->
 
+This page is a WIP.
+
+<!--
 <div class="pswp-gallery" id="gallery--fieldwork">
   <div class="row">
     <div class="col-sm-6 col-md-4 mb-4">
@@ -62,3 +65,4 @@ images:
     </div>
   </div>
 </div>
+-->
