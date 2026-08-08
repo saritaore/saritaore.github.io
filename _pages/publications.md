@@ -10,7 +10,14 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <div class="publications">
+<h2 class="bibliography-heading">Job Market Paper</h2>
+{% bibliography --query @phdthesis --group_by none %}
+</div>
 
-{% bibliography %}
+<div class="publications">
+{% bibliography --query @techreport %}
+</div>
 
+<div class="publications">
+{% bibliography --query @unpublished %}
 </div>
