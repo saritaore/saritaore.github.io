@@ -301,6 +301,13 @@
       </div>
     {% endif %}
 
+    {% if entry.description %}
+      <!-- Hidden abstract block -->
+      <div class="abstract hidden">
+        <p>{{ entry.description }}</p>
+      </div>
+    {% endif %}
+
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
