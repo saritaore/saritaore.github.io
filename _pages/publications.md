@@ -16,6 +16,9 @@ nav_order: 2
   <h2 class="bibliography-heading">Working Paper</h2>
   {% bibliography --query @*[keywords~=Working Paper] --group_by none %}
 
+  <h2 class="bibliography-heading">Advanced Projects</h2>
+  {% bibliography --query @*[keywords~=Advanced Projects] --group_by none %}
+  
   <h2 class="bibliography-heading">Work in Progress</h2>
   {% bibliography --query @*[keywords~=Work in Progress] --group_by none %}
 </div>
