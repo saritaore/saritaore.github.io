@@ -150,6 +150,9 @@
       {% if entry.presented_at %}
         <div class="extra-info"><strong>Presented at:</strong> {{ entry.presented_at }}</div>
       {% endif %}
+      {% if entry.funding %}
+        <div class="extra-info"><strong>Funded by:</strong> {{ entry.presented_at }}</div>
+      {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
