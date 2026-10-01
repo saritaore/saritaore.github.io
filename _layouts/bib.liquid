@@ -111,6 +111,25 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+
+    <!-- Custom fields: status, description, funding -->
+    {% if entry.status %}
+      <div class="pub-status">
+        <span class="badge pub-status-badge">{{ entry.status }}</span>
+      </div>
+    {% endif %}
+
+    {% if entry.description %}
+      <div class="pub-description">{{ entry.description }}</div>
+    {% endif %}
+
+    {% if entry.funding %}
+      <div class="pub-funding">
+        <i class="fa-solid fa-hand-holding-dollar"></i>
+        <em>Funding:</em> {{ entry.funding }}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
