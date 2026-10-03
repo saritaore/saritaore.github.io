@@ -35,4 +35,4 @@ Welcome! I am a Ph.D. candidate in Economics and Education at Teachers College, 
 
 My research focuses on topics in development, education, health, and gender economics. I use both experiments and tools from applied microeconomics. My current projects are based in Peru, Colombia, the Dominican Republic and Mozambique.
 
-I will be on the Job Market this Fall 2026.
+I am on the job market for the 2026–2027 academic year.
