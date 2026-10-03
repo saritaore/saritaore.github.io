@@ -1,1 +1,6 @@
-
+# Fieldwork photos, shown in this order.
+# file:    image name inside assets/img/
+# caption: text shown under the photo (also used as alt text)
+ 
+- file: moz_trainingGFP.jpg
+  caption: "Teachers training, Mozambique"
