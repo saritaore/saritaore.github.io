@@ -1431,3 +1431,7 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.abstract-box.description-box::before {
+  content: "Description:";
+}
