@@ -718,9 +718,8 @@ footer.sticky-bottom {
       font-size: 1.5rem;
     }
   }
-
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
@@ -728,7 +727,7 @@ footer.sticky-bottom {
   }
 
   h2.bibliography-heading {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
