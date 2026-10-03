@@ -6,18 +6,22 @@ nav: true
 nav_order: 3
 # Photos shown in this order. Add a photo by adding two lines below.
 photos:
-  - src: /assets/img/moz_trainingGFP.jpg
-    caption: "Teacher training in Mozambique"
-  - src: /assets/img/3.jpg
-    caption: "Community visits and meetings with local municipal officials"
-  - src: /assets/img/4.jpg
-    caption: "School visits and educational program assessments"
-  - src: /assets/img/5.jpg
-    caption: "Field team training and enumerator coordination"
-  - src: /assets/img/6.jpg
-    caption: "Health facility inspections and frontline staff interviews"
-  - src: /assets/img/7.jpg
-    caption: "Focus groups and community engagement sessions"
+- file: moz_fieldteamtraining.jpg
+  caption: "Training the field team before data collection, Mozambique"
+- file: moz_teachertraining4.jpg
+  caption: "Teachers working through the session materials during training, Mozambique"
+- file: moz_rural3.jpg
+  caption: "Crossing the river by boat on the way to schools, Mozambique"
+- file: moz_rural1.jpg
+  caption: "Walking the last stretch to a school on foot, Mozambique"
+- file: moz_fieldteam1.jpg
+  caption: "Field team at School after intervention, Maringue district"
+- file: moz_survey4.jpg
+  caption: "One-on-one student survey, Mozambique"
+- file: moz_interv3.jpg
+  caption: "Students in an intervention session led by a trained teacher, Mozambique"
+- file: moz_interv7.jpg
+  caption: "Group activity during an intervention session, Mozambique"
 ---
 
 <!-- _pages/fieldwork.md -->
