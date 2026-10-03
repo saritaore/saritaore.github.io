@@ -83,7 +83,7 @@
 
     <!-- Status -->
     {% if entry.status %}
-      <div class="extra-info" style="font-size: 0.75rem;"><strong>Status:</strong> {{ entry.status }}</div>
+      <div class="extra-info" style="font-size: 0.9rem;"><strong>Status:</strong> {{ entry.status }}</div>
     {% endif %}
 
     <!-- Journal/Book title and date -->
@@ -142,10 +142,10 @@
         </div>
       {% endif %}
       {% if entry.presented_at %}
-        <div class="extra-info" style="font-size: 0.75rem;"><strong>Presented at:</strong> {{ entry.presented_at }}</div>
+        <div class="extra-info" style="font-size: 0.9rem;"><strong>Presented at:</strong> {{ entry.presented_at }}</div>
       {% endif %}
       {% if entry.funding %}
-        <div class="extra-info" style="font-size: 0.75rem;"><strong>Funded by:</strong> {{ entry.funding }}</div>
+        <div class="extra-info" style="font-size: 0.9rem;"><strong>Funded by:</strong> {{ entry.funding }}</div>
       {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
