@@ -15,7 +15,7 @@ photos:
 - file: moz_rural1.jpg
   caption: "Walking the last stretch to a school on foot, Mozambique"
 - file: moz_fieldteam1.jpg
-  caption: "Field team at School after intervention, Maringue district"
+  caption: "Field team at School after intervention, Mozambique"
 - file: moz_survey4.jpg
   caption: "One-on-one student survey, Mozambique"
 - file: moz_interv3.jpg
