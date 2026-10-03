@@ -46,10 +46,14 @@
   - firstname: ["Natalia"]
     url: https://sites.google.com/umn.edu/nataliaguerrerotrinidad
 
-
 "perez":
   - firstname: ["Melissa"]
     url: https://sites.google.com/view/anamelissaperez/home
+
+"hidalgo":
+  - firstname: ["Alessandra"]
+    url: https://sites.google.com/view/alehidalgoarestegui/home?authuser=0
+
 
 
 "campos":
