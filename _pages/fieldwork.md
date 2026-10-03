@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /fieldwork/
+permalink: assets/img/
 title: fieldwork
 nav: true
 nav_order: 3
