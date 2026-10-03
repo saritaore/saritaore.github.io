@@ -79,6 +79,7 @@
           {% endfor %}
         </em>
       </div>
+    {% endif %}
 
     <!-- Status -->
     {% if entry.status %}
@@ -86,7 +87,6 @@
     {% endif %}
 
     <!-- Journal/Book title and date -->
-
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
@@ -117,7 +117,7 @@
       {{ periodical | strip }}
     </div>
 
-    <!-- Custom fields: description -->
+    <!-- Description (same box as abstract, different label) -->
     {% if entry.description %}
       <div class="abstract abstract-box description-box">
         <p>{{ entry.description }}</p>
@@ -302,13 +302,6 @@
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
-      </div>
-    {% endif %}
-
-    {% if entry.description %}
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>{{ entry.description }}</p>
       </div>
     {% endif %}
 
