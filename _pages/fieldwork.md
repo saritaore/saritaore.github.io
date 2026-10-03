@@ -1,27 +1,27 @@
 ---
 layout: page
-permalink: assets/img/
+permalink: /fieldwork/
 title: fieldwork
 nav: true
 nav_order: 3
-# Photos shown in this order. Add a photo by adding two lines below.
+# Photos shown in this order. Images live in assets/img/.
 photos:
-- file: moz_fieldteamtraining.jpg
-  caption: "Training the field team before data collection, Mozambique"
-- file: moz_teachertraining4.jpg
-  caption: "Teachers working through the session materials during training, Mozambique"
-- file: moz_rural3.jpg
-  caption: "Crossing the river by boat on the way to schools, Mozambique"
-- file: moz_rural1.jpg
-  caption: "Walking the last stretch to a school on foot, Mozambique"
-- file: moz_fieldteam1.jpg
-  caption: "Field team at School after intervention, Mozambique"
-- file: moz_survey4.jpg
-  caption: "One-on-one student survey, Mozambique"
-- file: moz_interv3.jpg
-  caption: "Students in an intervention session led by a trained teacher, Mozambique"
-- file: moz_interv7.jpg
-  caption: "Group activity during an intervention session, Mozambique"
+  - file: moz_fieldteamtraining.jpg
+    caption: "Training the field team before data collection, Mozambique"
+  - file: moz_teachertraining4.jpg
+    caption: "Teachers working through the session materials during training, Mozambique"
+  - file: moz_rural3.jpg
+    caption: "Crossing the river by boat on the way to schools, Mozambique"
+  - file: moz_rural1.jpg
+    caption: "Walking the last stretch to a school on foot, Mozambique"
+  - file: moz_fieldteam1.jpg
+    caption: "Field team at School after intervention, Mozambique"
+  - file: moz_survey4.jpg
+    caption: "One-on-one student survey, Mozambique"
+  - file: moz_interv3.jpg
+    caption: "Students in an intervention session led by a trained teacher, Mozambique"
+  - file: moz_interv7.jpg
+    caption: "Group activity during an intervention session, Mozambique"
 ---
 
 <!-- _pages/fieldwork.md -->
@@ -31,7 +31,7 @@ photos:
     <button class="fw-arrow fw-prev" type="button" aria-label="Previous photo">&#8249;</button>
     {% for photo in page.photos %}
     <figure class="fw-slide{% if forloop.first %} is-active{% endif %}">
-      <img src="{{ photo.src | relative_url }}" alt="{{ photo.caption | escape }}" {% unless forloop.first %}loading="lazy"{% endunless %}>
+      <img src="{{ '/assets/img/' | append: photo.file | relative_url }}" alt="{{ photo.caption | escape }}" {% unless forloop.first %}loading="lazy"{% endunless %}>
       <figcaption>{{ photo.caption }}</figcaption>
     </figure>
     {% endfor %}
@@ -41,7 +41,7 @@ photos:
   <div class="fw-thumbs" aria-label="Fieldwork photos">
     {% for photo in page.photos %}
     <button class="fw-thumb{% if forloop.first %} is-active{% endif %}" type="button" data-index="{{ forloop.index0 }}" aria-label="Show photo: {{ photo.caption | escape }}">
-      <img src="{{ photo.src | relative_url }}" alt="" loading="lazy">
+      <img src="{{ '/assets/img/' | append: photo.file | relative_url }}" alt="" loading="lazy">
     </button>
     {% endfor %}
   </div>
