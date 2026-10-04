@@ -6,22 +6,22 @@ nav: true
 nav_order: 3
 # Photos shown in this order. Images live in assets/img/.
 photos:
-  - file: moz_fieldteamtraining.jpg
-    caption: "Training the field team before data collection, Mozambique"
-  - file: moz_teachertraining4.jpg
-    caption: "Teachers working through the session materials during training, Mozambique"
-  - file: moz_rural3.jpg
-    caption: "Crossing the river by boat on the way to schools, Mozambique"
-  - file: moz_rural1.jpg
-    caption: "Walking the last stretch to a school on foot, Mozambique"
-  - file: moz_fieldteam1.jpg
-    caption: "Field team at School after intervention, Mozambique"
   - file: moz_survey4.jpg
     caption: "One-on-one student survey, Mozambique"
   - file: moz_interv3.jpg
     caption: "Students in an intervention session led by a trained teacher, Mozambique"
   - file: moz_interv7.jpg
     caption: "Group activity during an intervention session, Mozambique"
+  - file: moz_fieldteamtraining.jpg
+    caption: "Training the field team before data collection, Mozambique"
+  - file: moz_teachertraining4.jpg
+    caption: "Teachers working through the session materials during training, Mozambique"
+  - file: moz_fieldteam1.jpg
+    caption: "Field team at school after intervention, Mozambique"
+  - file: moz_rural3.jpg
+    caption: "Crossing the river by boat on the way to schools, Mozambique"
+  - file: moz_rural1.jpg
+    caption: "Walking the last stretch to a school on foot, Mozambique"
 ---
 
 <!-- _pages/fieldwork.md -->
