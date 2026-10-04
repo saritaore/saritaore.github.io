@@ -54,9 +54,19 @@
   - firstname: ["Alessandra"]
     url: https://sites.google.com/view/alehidalgoarestegui/home?authuser=0
 
-
-
 "campos":
   - firstname: ["AlejandraCampos"]
     url: https://scholar.google.com/citations?user=BrpTQhwAAAAJ&hl=en
+
+"cuenca":
+  - firstname: ["Ricardo"]
+    url: https://iep.org.pe/investigadores/ricardo-cuenca/
+
+"aldana":
+  - firstname: ["Úrsula", "Ursula"]
+    url: https://iep.org.pe/investigadores/ursula-aldan/
+
+"ames":
+  - firstname: ["Patricia"]
+    url: https://iep.org.pe/investigadores/patricia-ames/
 
