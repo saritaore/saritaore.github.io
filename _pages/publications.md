@@ -21,4 +21,8 @@ nav_order: 2
   
   <h2 class="bibliography-heading">Work in Progress</h2>
   {% bibliography --query @*[keywords~=Work in Progress] --group_by none %}
+
+  <h2 class="bibliography-heading">Policy Reports and Pre-PhD Publications</h2>
+  {% bibliography --query @*[keywords~=Policy] --group_by none %}
+  
 </div>
