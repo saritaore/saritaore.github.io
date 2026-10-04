@@ -31,22 +31,26 @@ nav_order: 2
   
 </div>
 
-
 <style>
-  .pub-collapse > summary {
+  /* hide the browser's default arrow */
+  .publications details.pub-collapse > summary {
+    display: block;
     list-style: none;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
   }
-  .pub-collapse > summary::-webkit-details-marker { display: none; }
-  .pub-collapse > summary h2 { margin: 0; display: inline; }
-  .pub-collapse > summary::after {
-    content: "▸ show";
-    font-size: 0.85rem;
-    color: var(--global-text-color-light);
+  .publications details.pub-collapse > summary::-webkit-details-marker { display: none; }
+  .publications details.pub-collapse > summary::marker { content: ""; }
+
+  /* draw the arrow right after the heading text */
+  .publications details.pub-collapse > summary h2.bibliography-heading::after {
+    content: "▸";
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
   }
-  .pub-collapse[open] > summary::after { content: "▾ hide"; }
-  .pub-collapse > summary:hover h2 { color: var(--global-theme-color); }
+  .publications details.pub-collapse[open] > summary h2.bibliography-heading::after {
+    transform: rotate(90deg);
+  }
+  .publications details.pub-collapse > summary:hover h2.bibliography-heading { opacity: 0.8; }
 </style>
