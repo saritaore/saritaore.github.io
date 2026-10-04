@@ -30,3 +30,23 @@ nav_order: 2
   </details>
   
 </div>
+
+
+<style>
+  .pub-collapse > summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .pub-collapse > summary::-webkit-details-marker { display: none; }
+  .pub-collapse > summary h2 { margin: 0; display: inline; }
+  .pub-collapse > summary::after {
+    content: "▸ show";
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+  .pub-collapse[open] > summary::after { content: "▾ hide"; }
+  .pub-collapse > summary:hover h2 { color: var(--global-theme-color); }
+</style>
