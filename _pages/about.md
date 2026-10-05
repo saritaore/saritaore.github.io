@@ -33,6 +33,7 @@ latest_posts:
 
 Welcome! I am a Ph.D. candidate in Economics and Education at Teachers College, Columbia University. I was a visiting scholar at Princeton University (2023–2025), and I am currently a research fellow at the Inter-American Development Bank's Research Department.
 
-My research focuses on topics in development, education, health, and gender economics. I use both experiments and tools from applied microeconomics. My current projects are based in Peru, Colombia, the Dominican Republic and Mozambique.
+I am an applied microeconomist working in development and public economics, with a focus on education, health, and crime. My research studies how governments can support human capital investment in underserved populations, and how violence and insecurity undermine it. I work closely with governments to design and evaluate large-scale field experiments, and I build linked administrative datasets that follow individuals across education, health, and social protection systems. My work spans Peru, Colombia, and Mozambique.
 
-I am on the job market for the 2026–2027 academic year.
+I am on the 2026–2027 job market.
+
