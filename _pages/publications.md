@@ -13,7 +13,7 @@ nav_order: 2
   <h2 class="bibliography-heading">Job Market Paper</h2>
   {% bibliography --query @phdthesis --group_by none %}
 
-  <h2 class="bibliography-heading">Working Paper</h2>
+  <h2 class="bibliography-heading">Working Papers</h2>
   {% bibliography --query @*[keywords~=Working Paper] --group_by none %}
 
   <h2 class="bibliography-heading">Advanced Projects</h2>
