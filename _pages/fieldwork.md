@@ -8,6 +8,8 @@ nav_order: 3
 photos:
   - file: jmp_dissemination2.JPG
     caption: "Workshop with municipal managers, Peru"
+  - file: IMG_0037.jpeg
+    caption: "Visit to police stations, Peru"
   - file: moz_survey4.jpg
     caption: "One-on-one student survey, Mozambique"
   - file: moz_interv3.jpg
